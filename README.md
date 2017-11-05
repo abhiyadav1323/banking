@@ -26,11 +26,11 @@ gcc server.c server_customer.c server_police.c server_admin.c -o server
 
 This application supports 3 types of users with different requirements:
 #### Bank_Customer
-The customer should able to see AVAILABLE BALANCE in his/her account and MINI STATEMENT of his/her account.
+The customer can see AVAILABLE BALANCE in his/her account and MINI STATEMENT of his/her account.
 #### Bank_Admin
-The admin should be able to CREDIT/DEBIT the certain amount of money from any Bank_Customer ACCOUNT (as we do it in a SBI single window counter). The admin must update the respective “Customer_Account_file” by appending the new information. 
+The admin can CREDIT/DEBIT the certain amount of money from any Bank_Customer ACCOUNT (as we do it in a SBI single window counter). The admin also updates the respective “Customer_Account_file” by appending the new information. 
 #### Police
-The police should only be able to see the available balance of all customers. He is allowed to view any Customers MINI STATEMENT by quoting the Customer_ID (i.e. User_ID with user_type as ‘C’).
+The police can see the available balance of all customers. He is allowed to view any Customers MINI STATEMENT by quoting the Customer_ID (i.e. User_ID with user_type as ‘C’).
 
 ## How to use?
 
